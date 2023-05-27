@@ -1,0 +1,117 @@
+*{
+    font-family: 'Jost', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: black;
+    color: white;
+}
+
+.download>a{
+    font-style: normal;
+    height: auto;
+    width: 150px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.esports_banner{
+    display: flex;
+}
+
+.esports_title>p{
+    font-family: 'Jost', sans-serif;
+    margin-left: 3vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.esports_banner>img{
+    margin-left: 3vw;
+    width: 60vw;
+    height: auto;
+}
+
+.esports_text{
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-left: 3vw;
+}
+
+.esports_text>p{
+    color: #ff7a00;
+}
+
+.schedule{
+    margin-left: 3vw;
+    display: flex;
+}
+
+.schedule p{
+    padding: 0.5vw 2.5vw 0.5vw 2.5vw;
+    font-size: 2rem;
+    border: 3px solid black;
+    background-color: #2f2f2f;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.sub_schedule{
+    color: #ff7a00;
+}
+
+.esports_watch{
+    display: flex;
+    margin-bottom: 5vh;
+}
+
+.esports_watch>img{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    width: 40vw;
+    height: auto;
+}
+
+.esports_logo>a>img{
+    height: auto;
+    width: 10vw;
+    border-radius: 5px;
+}
+
+.esports_logo>p{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.ingame_client{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.download{
+    font-style: normal;
+    height: auto;
+    width: 150px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 900;
+}
+

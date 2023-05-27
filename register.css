@@ -1,0 +1,105 @@
+*{
+    font-family: 'Jost',sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.download{
+    font-style: normal;
+    height: auto;
+    width: 150px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.register{
+    margin-top: 20px;
+    background-color: #2f2f2f;
+    display: flex;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.register_form{
+    padding: 0 4vw;
+    font-size: 1.5rem;
+}
+
+.gambar{
+    height: 100vh;
+}
+
+.title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.register_form p{
+    font-size: 1rem;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-weight: 600;
+}
+
+.register_form span{
+    font-size: 1rem;
+}
+
+.register_form .kotak>input{
+    width: 100%;
+    height: 30px;
+    background-color: #5a5a5a;
+}
+
+.register_form .bulat>input{
+    margin-left: 1vw;
+}
+
+.checkbox>span{
+    font-style: italic;
+}
+
+.checkbox>span>a{
+    color: #4684fb;
+    text-decoration: none;
+}
+
+.reg_button>input{
+    font-style: normal;
+    height: auto;
+    width: 200px;
+    background-color: #5a5a5a;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.reg_button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .register{
+        flex-direction: column;
+    }
+    .gambar{
+        height: fit-content;
+        }
+}

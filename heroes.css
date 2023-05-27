@@ -1,0 +1,102 @@
+*{
+    font-family: 'Jost', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: black;
+    color: white;
+}
+
+.download{
+    font-style: normal;
+    height: auto;
+    width: 150px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.attribute{
+    font-family: 'Jost', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.attribute>img{
+    margin-top: 10vh;
+    margin-left: 2.5vw;
+    margin-bottom: 10vh;
+    height: auto;
+    width: 8vw;
+    vertical-align: middle;
+}
+
+.heroes_container{
+    display: flex;
+}
+
+.heroes_image{
+    display: flex;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 20px;
+    margin-left: 2.5vw;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.attribute>span{
+    font-size: 2.25rem;
+}
+
+.mountain{
+    background-image: url(images/mountain.jpg);
+}
+
+.spectre{
+    background-image: url(images/spectre\ hero.jpg);
+}
+
+.thorns{
+    background-image: url(images/thorn.jpg);
+}
+
+.blue_poisson{
+    background-image: url(images/bp2.jpg);
+}
+
+.chen{
+    background-image: url(images/chen.jpg);
+}
+
+.texas{
+    background-image: url(images/texash.jpg);
+}
+
+.amiya{
+    background-image: url(images/amiya\ 2.jpg);
+}
+
+.dusk{
+    background-image: url(images/dusk2.jpg);
+}
+
+.mostima{
+    background-image: url(images/mostima2.jpg);
+}
+
+@media only screen and (max-width: 800px) {
+    .heroes_container{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,190 @@
+*{
+    font-family: 'Jost', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: black;
+    color: white;
+}
+
+.download{
+    font-style: normal;
+    height: auto;
+    width: 150px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.promotion{
+    font-family: 'Jost', sans-serif;
+}
+
+.promotion_background{
+    background-image: url(images/mostima\ home.jpg);
+    display: flex;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 98.9vw;
+    height: 65vh;
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: flex-end;
+    color: #807B7B;
+    font-weight: 800;
+}
+
+.promotion_title{
+    text-align: center;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.promotion_title>span{
+    border-bottom: 3px solid #ff7a00;
+}
+
+.promotion_sub{
+    margin-top: 3vh;
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.herobanner{
+    font-family: 'Jost', sans-serif;
+}
+
+.banner_title{
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.banner_title>span{
+    border-bottom: 3px solid #ff7a00;
+}
+
+.banner{
+    margin-top: 5vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.banner>img{
+    border: 0.5px solid #857e7e;
+    height: auto;
+    width: 12.5vw;
+}
+
+.banner_sub{
+    margin-top: 1vh;
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.circuit{
+    font-family: 'Jost', sans-serif;
+}
+
+.circuit_background{
+    background-image: url(images/arena.jpg);
+    display: flex;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 98.9vw;
+    height: 450px;
+    font-weight: 900;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: flex-end;
+    color: #807B7B;
+    font-weight: 800;
+}
+
+.circuit_title{
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.circuit_title>span{
+    border-bottom: 3px solid #ff7a00;
+}
+
+.circuit_sub{
+    margin-top: 3vh;
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.latest_news{
+    font-family: 'Jost', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.check_news{
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 4.5vh;
+}
+
+.news{
+    display: flex;
+    background-image: url(images/OBT.jpg);
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50vw;
+    height: 30vh;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.latest_news>a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.button{
+    font-style: normal;
+    height: auto;
+    width: 14vw;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25rem;
+    font-weight: 900;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}

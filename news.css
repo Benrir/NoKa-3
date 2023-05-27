@@ -1,0 +1,125 @@
+*{
+    font-family: 'Jost', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.bg_black{
+    background: black;
+}
+
+.featured_news{
+    filter: brightness(85%);
+    margin-top: 5vh;
+    background: transparent;
+    background-image: url(images/akh2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 98.9vw;
+    height: auto;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.featured_news>p{
+    margin-left: 5vw;
+    margin-bottom: 5vh;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.latest_news{
+    display: flex;
+    background-image: url(images/OBT.jpg);
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50vw;
+    height: 60vh;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.article{
+    margin-top: 5vh;
+    display: flex;
+    margin-bottom: 5vh;
+}
+
+.article>img{
+    margin-left: 5vw;
+    width: 40vw;
+    height: auto;
+}
+
+.article_text{
+    font-size: 1.5rem;
+    margin-left: 5vw;
+}
+
+.article_text>span{
+    font-weight: 800;
+    color: #ff7a00;
+}
+
+.article_text>p{
+    font-weight: 800;
+}
+
+.article_text>a{
+    font-style: italic;
+    color: #cdcbcb;
+    text-decoration: none;
+}
+
+.download{
+    font-style: normal;
+    height: auto;
+    width: 150px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.button{
+    font-style: normal;
+    height: auto;
+    width: 125px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+.button>u{
+    color: black;
+    text-decoration-color: #ff7a00;
+}
+
+@media only screen and (max-width: 800px) {
+    .article{
+        flex-direction: column;
+    }
+}
